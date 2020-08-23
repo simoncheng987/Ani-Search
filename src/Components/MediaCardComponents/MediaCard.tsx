@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import './MediaCard.css';
 
 interface IMediaCardProps {
-    //ImageUrl: string | undefined;
+    ImageUrl: string | undefined;
     Description: string | undefined;
 }
 
@@ -18,7 +18,7 @@ function MediaCard(props: IMediaCardProps) {
                 <CardActionArea>
                     <CardMedia
                         className="MediaCardImage"
-                        //image={props.ImageUrl}
+                        image={props.ImageUrl}
                     />
                     <CardContent>
                         <Typography variant="body2" color="textSecondary" component="p" className="MediaCardDescription">
