@@ -2,7 +2,7 @@ trigger:
 - master
 
 variables:
-  rootDir: 'my-app'
+  rootDir: 'Ani-Searcher'
   buildDir: '$(rootDir)/build'
 
 pool:
