@@ -1,4 +1,4 @@
-# Ani Search
+# Ani Searcher
 ## Introduction
 
 Ani Search is an React app that allows visitors to retrieve news or related info of their favourite animate.
